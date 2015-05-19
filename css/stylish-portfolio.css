@@ -47,7 +47,7 @@ body {
 .btn-light {
     border-radius: 0;
     color: #333;
-    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255,0.7);
 }
 
 .btn-light:hover,
@@ -167,7 +167,15 @@ hr.small {
 }
 
 .header h1 {
-    font-size: 8em;
+    font-size: 10em;
+    color: #fff;
+    text-shadow: 2px 2px 1px #000;
+}
+
+.header h3 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom:1em;
 }
 
 /* About */
