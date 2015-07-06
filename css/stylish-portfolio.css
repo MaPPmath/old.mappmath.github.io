@@ -178,6 +178,15 @@ hr.small {
     margin-bottom:1em;
 }
 
+.header p.lead {
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.header img {
+    -webkit-filter: drop-shadow( 1px 1px 1px #fff );
+            filter: drop-shadow( 1px 1px 1px #fff );
+}
+
 /* About */
 
 .about {
