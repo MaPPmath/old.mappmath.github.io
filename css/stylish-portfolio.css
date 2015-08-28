@@ -172,7 +172,7 @@ hr.small {
     text-shadow: 2px 2px 1px #000;
 }
 
-.header h3 {
+.header h2, .header h3 {
     color: #fff;
     text-shadow: 1px 1px 1px #000;
     margin-bottom:1em;
@@ -201,6 +201,15 @@ hr.small {
 
 .service-item {
     margin-bottom: 30px;
+}
+
+.services a {
+    color: white;
+    text-decoration: underline;
+}
+
+.services a:hover {
+    text-decoration: none;
 }
 
 /* Callout */
@@ -243,6 +252,16 @@ hr.small {
 
 .call-to-action .btn {
     margin: 10px;
+    text-decoration: none;
+}
+
+.call-to-action a {
+    color: white;
+    text-decoration: underline;
+}
+
+.call-to-action a:hover {
+    text-decoration: none;
 }
 
 /* Map */
